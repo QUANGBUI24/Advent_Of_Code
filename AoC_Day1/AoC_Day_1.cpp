@@ -85,6 +85,6 @@ void secondQuestion(){
 
 
 int main(){
-
+    firstQuestion();
     secondQuestion();
 }
