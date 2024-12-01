@@ -7,7 +7,7 @@
 
 void firstQuestion(){
     // Open file
-    std::ifstream inputFile("input.txt");
+    std::ifstream inputFile("Day_1_input.txt");
     
     if (!inputFile) {
         std::cerr << "Unable to open the file.\n";
@@ -22,7 +22,7 @@ void firstQuestion(){
     int num1, num2;
     while (inputFile >> num1 >> num2) {
         list_1.push_back(num1);
-        list_2.push_back(num1);
+        list_2.push_back(num2);
     }
 
     inputFile.close();
@@ -42,7 +42,7 @@ void firstQuestion(){
 
 void secondQuestion(){
     // Open file
-    std::ifstream inputFile("input.txt");
+    std::ifstream inputFile("Day_1_input.txt");
     
     if (!inputFile) {
         std::cerr << "Unable to open the file.\n";
