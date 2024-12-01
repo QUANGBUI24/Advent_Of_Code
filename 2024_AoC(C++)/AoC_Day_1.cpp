@@ -2,8 +2,6 @@
 #include <vector>
 #include <fstream>
 #include <algorithm>
-#include <unordered_map>
-#include <set>
 
 void firstQuestion(){
     // Open file
