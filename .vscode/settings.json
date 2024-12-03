@@ -59,6 +59,7 @@
         "list": "cpp",
         "xhash": "cpp",
         "sstream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "regex": "cpp"
     }
 }
